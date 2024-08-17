@@ -19,3 +19,31 @@ h1 {
     border-radius: 15px;
     text-decoration: none;
 }
+
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.flexible-container {
+    display: flex;
+}
+
+#about-area {
+    background-image: url(images/shapes/Group\ 8447.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#second-background {
+    background-image: url(images/shapes/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.middle {
+    text-align: center;
+    padding-bottom: 40px;
+    width: 80%;
+    padding-left: 10%;
+}
