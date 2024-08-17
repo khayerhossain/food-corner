@@ -1,0 +1,21 @@
+body {
+    font-family: "Kanit", sans-serif;
+}
+
+.colored {
+    color: rgb(226, 7, 7);
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.button {
+    padding: 10px 40px;
+    background-image: linear-gradient(to right, #D51E24, #EB6076);
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    border-radius: 15px;
+    text-decoration: none;
+}
