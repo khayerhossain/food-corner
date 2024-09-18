@@ -124,3 +124,68 @@ h1 {
     font-size: 50px;
     font-family: 'Yusei Magic', sans-serif;
 }
+
+.hide {
+    display: none;
+}
+
+
+/* responsive meadia queary*/
+/* mobile devices*/
+@media screen and (max-width:576px) {
+    .flexible-container {
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        margin: auto;
+    }
+
+    .foter-area {
+        margin-bottom: 0%;
+    }
+
+    .count-boxes {
+        flex-direction: column;
+    }
+
+    .count-box {
+        align-items: center;
+        width: auto;
+    }
+
+    .timing-area {
+        background-image: none;
+    }
+
+    .half-width-1 img {
+        width: 300px;
+
+    }
+
+    .container {
+        width: auto;
+        padding: 0;
+    }
+
+    .all-boxes {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .box {
+        width: auto;
+    }
+
+    .half-width {
+        width: auto;
+        margin-bottom: 20px;
+    }
+
+    .half-width img {
+        width: 320px;
+    }
+
+    #about-area {
+        background-size: 100%;
+    }
+}
